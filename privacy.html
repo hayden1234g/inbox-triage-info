@@ -1,0 +1,22 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Inbox Triage privacy</title><link rel="stylesheet" href="style.css"></head><body><main>
+<h1>Privacy policy</h1>
+<p class="mute">Last updated November 23, 2026</p>
+<p>Inbox Triage is a single-user tool. The only account it connects to is its owner's own Gmail account.</p>
+<h2>What it accesses</h2>
+<p>Using the Gmail permission <code>gmail.modify</code>, it reads message headers
+(sender, recipients, subject, date, Gmail category and unsubscribe header) and changes labels: it archives mail by removing the
+Inbox label and adds labels the owner approves. It does not read or store message bodies, and it does not delete or send mail.</p>
+<h2>Where data is stored</h2>
+<p>Headers and the action history are kept in a database on the owner's private home server. Nothing is sold, shared,
+or sent to third parties. The only outside requests are to Google's Gmail API and, when the owner approves an unsubscribe,
+to that sender's own one-click unsubscribe address.</p>
+<h2>Google user data</h2>
+<p>Inbox Triage's use of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+including the Limited Use requirements. The data is used only to provide the inbox triage feature to its owner.</p>
+<h2>Removing access</h2>
+<p>The owner can revoke access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>,
+after which the stored data is deleted from the home server.</p>
+<p><a href="index.html">Back to Inbox Triage</a></p>
+</main></body></html>
